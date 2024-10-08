@@ -9,8 +9,8 @@ async def get_from_port(conversation):
             method="POST",
             headers={'Content-Type': 'application/json'},
             body=json.dumps({"conversation": conversation,
-            'Davinci_API_KEY': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJEVkNBU1NJIiwic3ViIjoiRFM5MDgxNDEiLCJhdWQiOlsiRFZDQVNTSSJdLCJpYXQiOjE3MjI0OTEyNjEsImp0aSI6IjhiMjU0NWJjLTVhYjctNGY5Yy1iMzhkLWFkYzExYTU5MmNhYyJ9.uX26H4Slj15fqHL-ZVGRH8j9kVMQz-J9c-m16zBDrSs',
-            'Composio_API_KEY': 'nz8dbhjwoibd3iee6l45b',
+            'Davinci_API_KEY': [DaVinci API Key],
+            'Composio_API_KEY': [Composio API Key],
             'Entity_ID': 'Arlo'})
         )
 
